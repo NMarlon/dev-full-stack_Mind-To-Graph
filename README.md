@@ -9,8 +9,8 @@
   - Menu também é responsivo, ajustando ao centro da tela.
 - Botões contém transição suave de hover.
 - Arquivos foram particionados em 3 partes: Menu principal e inicial, descritivo de 3 blocos, descritivo bloco roxo
-- O arquivo de projeto está na pasta: mind-the-graph
-- O arquivo com a build pronta está na raiz !["build-projeto.rar"](https://github.com/NMarlon/dev-full-stack_Mind-To-Graph/blob/main/build-projeto.rar)
+- Os arquivos de projeto estão na pasta: mind-the-graph
+- O arquivo com a build pronta está na raiz com nome: !["build-projeto.rar"](https://github.com/NMarlon/dev-full-stack_Mind-To-Graph/blob/main/build-projeto.rar)(clique para abrir)
   - Para abrir a build, precisa-se de alguma ferramenta como Apache (XAMPP) ou outro.  
 
 ### Abaixo ilustrações e vídeos do resultado final do projeto
