@@ -124,7 +124,7 @@ function App() {
                         <a className="link-imagem-learn_more" href="Wait_weAreInProgress.js"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 10 19">
                             <g id="bt_learnmore" transform="translate(1.768)">
 
-                                <path id="Caminho_814" data-name="Caminho 814" d="M419.35,247.464l5.5,5.57-5.57,5.5" transform="translate(-419.28 -242.053)" fill="none" stroke="#7833ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+                                <path id="Caminho_814" dataName="Caminho 814" d="M419.35,247.464l5.5,5.57-5.57,5.5" transform="translate(-419.28 -242.053)" fill="none" stroke="#7833ff" strokeLinecap="round" stroke-linejoin="round" stroke-width="2.5" />
                             </g>
                         </svg><p className="texto-learn-more">LEARN MORE</p></a>
 
@@ -138,7 +138,7 @@ function App() {
                         <a className="link-imagem-learn_more" href="Wait_weAreInProgress.js"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 10 19">
                             <g id="bt_learnmore" transform="translate(1.768)">
 
-                                <path id="Caminho_814" data-name="Caminho 814" d="M419.35,247.464l5.5,5.57-5.57,5.5" transform="translate(-419.28 -242.053)" fill="none" stroke="#7833ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+                                <path id="Caminho_814" dataName="Caminho 814" d="M419.35,247.464l5.5,5.57-5.57,5.5" transform="translate(-419.28 -242.053)" fill="none" stroke="#7833ff" strokeLinecap="round" stroke-linejoin="round" stroke-width="2.5" />
                             </g>
                         </svg><p className="texto-learn-more">LEARN MORE</p></a>
 
@@ -153,7 +153,7 @@ function App() {
                         <a className="link-imagem-learn_more" href="Wait_weAreInProgress.js"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="18" viewBox="0 0 10 19">
                             <g id="bt_learnmore" transform="translate(1.768)">
 
-                                <path id="Caminho_814" data-name="Caminho 814" d="M419.35,247.464l5.5,5.57-5.57,5.5" transform="translate(-419.28 -242.053)" fill="none" stroke="#7833ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" />
+                                <path id="Caminho_814" dataName="Caminho 814" d="M419.35,247.464l5.5,5.57-5.57,5.5" transform="translate(-419.28 -242.053)" fill="none" stroke="#7833ff" strokeLinecap="round" stroke-linejoin="round" stroke-width="2.5" />
                             </g>
                         </svg><p className="texto-learn-more">LEARN MORE</p></a>
 
