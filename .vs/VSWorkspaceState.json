@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\mind-to-graph",
+    "\\mind-to-graph\\public",
+    "\\mind-to-graph\\src"
   ],
+  "SelectedNode": "\\mind-to-graph",
   "PreviewInSolutionExplorer": false
 }
