@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@szhsin/react-menu": "^3.0.2",
     "hamburger-react": "^2.5.0"
   }
 }

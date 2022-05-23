@@ -14,18 +14,63 @@ import ico_platform from './img/ico_platform.svg';
 import ico_premade from './img/ico_premade.svg';
 import ico_share from './img/ico_share.svg';
 
+//import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
+//import '@szhsin/react-menu/dist/core.css'; 
+
+//import React, { useState, useContext } from 'react'
+import { slide as Menu } from 'react-burger-menu';
+
 //import Hamburger from 'hamburger-react';
 
 
+//var develop_mode = true;
 function App() {
-    return (
+    
+    return ( 
+     
+
         <div className="App">
+
+            <div id="outer-container">
+                <Menu right width={'400px'} >
+                    <div className="menu-login-group">
+                            <a href="nothingForAWhile.js" className="botao-login botao-login-menu-items-hamburger menu-items-hamburger" ><span>Login</span></a>
+                      
+                        <a className=" Button-Sign-Up-menu Button-Sign-Up-menu-items-hamburger menu-items-hamburger" href="nothingForAWhile.js" ><span>Sign up free</span></a>
+                      
+                    </div>
+                    <div className="Spacing"></div>
+                    <div className="Spacing"></div>
+
+                    <div className="" >
+                        <a className="Menu-Item menu-items-hamburger" href="nothingForAWhile.js" >Templates</a>
+                    </div>
+                    <div className="">
+                        <a className="Menu-Item menu-items-hamburger" href="nothingForAWhile.js" >Pricing</a>
+                    </div>
+                    <div className="">
+                        <a className="Menu-Item menu-items-hamburger" href="nothingForAWhile.js" >Blog</a>
+                    </div>
+                    <div className="">
+                        <a className="Menu-Item menu-items-hamburger" href="nothingForAWhile.js" >Jobs</a>
+                    </div>
+                    
+                </Menu>
+            </div>
             <div className="main">
                 <div className="center">
+
+                    
+
+                    
+
+
+
                     <div className="menu">
                         <div className="logo">
                             <img src={logo} alt="Mind The Graph" />
                         </div>
+                        
                         <div className="lista-itens-menu">
                             <div className="item-menu">
                                 <a className="Menu-Itens" href="nothingForAWhile.js" >Templates</a>
@@ -45,10 +90,11 @@ function App() {
                             <div className="item-menu">
                                 <a className="Button-Sign-Up" href="nothingForAWhile.js" >Sign up free</a>
                             </div>
-                        </div>
+                        </div> 
                     </div>
 
                 </div>
+
                 <div className="conteudo-apresentacao-menu">
                     <div className="conteudo-esquerda-menu">
                         <p>Discover all possibilities of using this powerfull tool and create science, figures, posters and infographics.</p>

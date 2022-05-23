@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\mind-the-graph",
+    "\\mind-the-graph\\public",
+    "\\mind-the-graph\\src",
     "\\mind-to-graph",
-    "\\mind-to-graph\\public",
     "\\mind-to-graph\\src"
   ],
-  "SelectedNode": "\\mind-to-graph",
+  "SelectedNode": "\\mind-the-graph",
   "PreviewInSolutionExplorer": false
 }

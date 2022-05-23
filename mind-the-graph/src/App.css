@@ -207,7 +207,7 @@ h4 {
     }
 
 .organizador {
-    min-height: 350px;
+    min-height: 410px;
 }
 
 .conteudo {
@@ -274,6 +274,9 @@ h4 {
 .tres-infomacoes-graphical-Abstracts {
     margin-top: 0;
 }
+#outer-container{
+    display:none;
+}
 @media screen and (max-width:768px) {
     .logo {
         margin: auto;
@@ -314,6 +317,168 @@ h4 {
     }
 
     .organizador {
-        min-height: 250px;
+        min-height: inherit;
+    }
+    .lista-itens-menu{
+        display:none;
+    }
+    #outer-container {
+        display: block;
+    }
+    
+}
+
+.Menu-Item {
+    color: black;
+}
+
+.menu-items-hamburger {
+    
+    text-align: center;
+    text-decoration: none;
+    margin: 10px auto;
+}
+.menu-login-group > a {
+    margin: auto;
+    display:grid;
+}
+.menu-login-group > a > span{
+    font-family:Lato-Bold;
+    margin:auto;
+}
+.Button-Sign-Up-menu-items-hamburger, .botao-login-menu-items-hamburger {
+    display: block;
+}
+.botao-login-menu-items-hamburger {
+    width: fit-content;
+    color: #000000;
+    border: 2px solid #B9B9B9;
+    height: 40px;
+    padding: 0 30px;
+    font-size: 16px;
+    background: #FFFFFF;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    border-radius: 35px;
+    text-transform: none;
+    text-decoration: none;
+    margin: 0;
+}
+    .botao-login-menu-items-hamburger span, .Button-Sign-Up-menu-items-hamburge span {
+        width: 100%;
+        margin: auto;
+    }
+
+.Button-Sign-Up-menu-items-hamburger {
+    width:max-content;
+    color: #FFFFFF;
+    border: 2px solid #7833FF;
+    height: 40px;
+    margin: 0 0 0 11px;
+    padding: 0 30px;
+    font-size: 16px;
+    background: #7833FF;
+    font-family: Lato, sans-serif;
+    font-weight: bold;
+    border-radius: 35px;
+
+    text-transform: none;
+}
+
+
+
+.bm-burger-button > button {
+    color: black;
+}
+
+.bm-burger-button {
+    position: fixed;
+    width: 22px;
+    height: 19px;
+    right: 36px;
+    top: 36px;
+    color:black;
+    
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: black; 
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+    background: #a90000;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    background: white;
+    padding: 2.5em 1.5em 0;
+    font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+    display: grid !important;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.menu-login-group {
+    display: flex !important;
+}
+
+@media screen and (max-width: 600px) {
+
+    .menu-login-group {
+        display: grid !important;
+    }
+
+        .menu-login-group > a {
+        margin-top:20px;
+    }
+    .bm-menu{
+        padding:0;
+    }
+    .bm-menu-wrap{
+        width:250px!important;
     }
 }
