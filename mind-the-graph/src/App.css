@@ -75,24 +75,31 @@
     background-color: #6922ff;
     border: none;
 }
-.texto-learn-more{
 
+.texto-learn-more {
 }
-.Button-Sign-Up, .botao-borda-branca-fundo-transparente, .link-imagem-learn_more, .botao-login {
-    transition: 0.3s; 
+
+.Button-Sign-Up, .botao-borda-branca-fundo-transparente, .link-imagem-learn_more, .botao-login, a, .botao-borda-branca-fundo-transparente > span {
+    transition: 0.3s;
 }
 
     .Button-Sign-Up:hover {
         background-color: #9762ff;
     }
-    .botao-login:hover{
-        background-color:white;
-        color:#de1f62;
+
+    .botao-login:hover {
+        background-color: white;
+        color: #de1f62;
     }
-    .item-menu .Menu-Itens {
-        border: none;
-        margin: auto;
-    }
+
+.item-menu .Menu-Itens {
+    border: none;
+    margin: auto;
+}
+
+.Menu-Itens:hover {
+    color: gray;
+}
 
 .body-things {
     padding: 8px;
@@ -176,9 +183,11 @@ h4 {
     .conteudo-single > .organizador > * {
         padding-top: 15px;
     }
+
     .conteudo-single > .organizador > p, .conteudo-single h4 {
         font-size: 20px;
     }
+
     .conteudo-single > .organizador > p {
         font-family: "Lato-Regular";
     }
@@ -227,10 +236,17 @@ h4 {
     text-decoration: none;
 }
 
-    .botao-borda-branca-fundo-transparente:hover {
-        background-color: white;
+    .botao-borda-branca-fundo-transparente:hover > span, .botao-borda-branca-fundo-transparente:hover {
         color: #5F29CC;
     }
+
+    .botao-borda-branca-fundo-transparente:hover {
+        background-color: white;
+    }
+
+        .botao-borda-branca-fundo-transparente > span {
+            margin:auto;
+        }
 
 .link-botao {
     text-decoration: none;
@@ -241,13 +257,13 @@ h4 {
 
 .bloco-roxo {
     width: 90%;
-    max-width:920px;
+    max-width: 920px;
     margin: auto;
     border-radius: 24px;
     background-color: #5F29CC;
     padding: 60px;
-    margin-bottom:50px;
-    display:block;
+    margin-bottom: 50px;
+    display: block;
 }
 
     .bloco-roxo * {
@@ -259,24 +275,29 @@ h4 {
         padding-top: 20px;
     }
 
-  
+
 
     .bloco-roxo .organizador {
         min-height: inherit;
     }
-    .bloco-roxo h3{
-        font-size:34px;
+
+    .bloco-roxo h3 {
+        font-size: 34px;
     }
-    .bloco-roxo p{
+
+    .bloco-roxo p {
         font-size: 20px;
-        font-family:Lato-Light!important;
+        font-family: Lato-Light !important;
     }
+
 .tres-infomacoes-graphical-Abstracts {
     margin-top: 0;
 }
-#outer-container{
-    display:none;
+
+#outer-container {
+    display: none;
 }
+
 @media screen and (max-width:768px) {
     .logo {
         margin: auto;
@@ -319,13 +340,22 @@ h4 {
     .organizador {
         min-height: inherit;
     }
-    .lista-itens-menu{
-        display:none;
+
+    .lista-itens-menu {
+        display: none;
     }
+
     #outer-container {
         display: block;
     }
-    
+
+    .conteudo-esquerda-menu {
+        padding: 5px;
+    }
+
+    .bloco-roxo {
+        padding: 12px;
+    }
 }
 
 .Menu-Item {
@@ -333,22 +363,25 @@ h4 {
 }
 
 .menu-items-hamburger {
-    
     text-align: center;
     text-decoration: none;
     margin: 10px auto;
 }
+
 .menu-login-group > a {
     margin: auto;
-    display:grid;
+    display: grid;
 }
-.menu-login-group > a > span{
-    font-family:Lato-Bold;
-    margin:auto;
-}
+
+    .menu-login-group > a > span {
+        font-family: Lato-Bold;
+        margin: auto;
+    }
+
 .Button-Sign-Up-menu-items-hamburger, .botao-login-menu-items-hamburger {
     display: block;
 }
+
 .botao-login-menu-items-hamburger {
     width: fit-content;
     color: #000000;
@@ -364,13 +397,14 @@ h4 {
     text-decoration: none;
     margin: 0;
 }
+
     .botao-login-menu-items-hamburger span, .Button-Sign-Up-menu-items-hamburge span {
         width: 100%;
         margin: auto;
     }
 
 .Button-Sign-Up-menu-items-hamburger {
-    width:max-content;
+    width: max-content;
     color: #FFFFFF;
     border: 2px solid #7833FF;
     height: 40px;
@@ -381,7 +415,6 @@ h4 {
     font-family: Lato, sans-serif;
     font-weight: bold;
     border-radius: 35px;
-
     text-transform: none;
 }
 
@@ -397,13 +430,12 @@ h4 {
     height: 19px;
     right: 36px;
     top: 36px;
-    color:black;
-    
+    color: black;
 }
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
-    background: black; 
+    background: black;
 }
 
 /* Color/shape of burger icon bars on hover*/
@@ -473,12 +505,27 @@ Note: Beware of modifying this element as it can break the animations - you shou
     }
 
         .menu-login-group > a {
-        margin-top:20px;
+            margin-top: 20px;
+        }
+
+    .bm-menu {
+        padding: 0;
     }
-    .bm-menu{
-        padding:0;
+
+    .bm-menu-wrap {
+        width: 250px !important;
     }
-    .bm-menu-wrap{
-        width:250px!important;
+}
+
+.botao-borda-branca-fundo-transparente > span {
+    margin: auto;
+}
+
+@media screen and (max-width: 450px) {
+    .botao-borda-branca-fundo-transparente {
+        padding: 15px;
+        display: flex;
+        font-size: 0.75em;
+        height:auto;
     }
 }
