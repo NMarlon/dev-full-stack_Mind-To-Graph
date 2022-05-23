@@ -176,7 +176,9 @@ h4 {
     .conteudo-single > .organizador > * {
         padding-top: 15px;
     }
-
+    .conteudo-single > .organizador > p, .conteudo-single h4 {
+        font-size: 20px;
+    }
     .conteudo-single > .organizador > p {
         font-family: "Lato-Regular";
     }
@@ -243,8 +245,9 @@ h4 {
     margin: auto;
     border-radius: 24px;
     background-color: #5F29CC;
-    padding: 40px;
+    padding: 60px;
     margin-bottom:50px;
+    display:block;
 }
 
     .bloco-roxo * {
@@ -256,12 +259,17 @@ h4 {
         padding-top: 20px;
     }
 
-    .bloco-roxo > p {
-        font-family: "Lato-Light";
-    }
+  
 
     .bloco-roxo .organizador {
         min-height: inherit;
+    }
+    .bloco-roxo h3{
+        font-size:34px;
+    }
+    .bloco-roxo p{
+        font-size: 20px;
+        font-family:Lato-Light!important;
     }
 .tres-infomacoes-graphical-Abstracts {
     margin-top: 0;

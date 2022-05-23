@@ -185,6 +185,7 @@ function App() {
                     
                     <a href="nothingForAWhile.js" className="link-botao" ><div className="botao-borda-branca-fundo-transparente">EXPLORE MIND THE GRAPH  </div></a>
                   
+                    <div className="Spacing"></div>
 
                 </div>
             </div>
